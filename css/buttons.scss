@@ -1,0 +1,83 @@
+//----------------------------this is for styling interface elements------------------------------
+
+$marginSpacingTop: 0px;
+$marginSpacingLeft: 2px;
+
+.btn {
+  flex:2;
+
+  margin-left: 3px;
+  width: 150px;
+
+  height:40px;
+
+  border: 1px solid #2b5f92;
+  outline: none;
+  background: #000000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px;
+
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.btn2 {
+  flex:1;
+  margin-left: 3px;
+  width: 100px;
+  height:30px;
+  border: 1px solid #3484c1;
+  outline: none;
+  background: #16314d;
+
+  font-family: Arial;
+  color: #d1cdd1;
+  font-size: 16px;
+ padding: 2px;
+
+}
+
+.btn2:hover {
+  background: #3cb0fd;
+}
+
+input{
+  font-size: 1em;
+  width:100px;
+  color: white;
+  background-color: #08162d;
+  outline-width: 0px;
+  //align-self: center;
+  text-align: center;
+  padding:2px;
+  border: 1px  solid #12a9ff;
+
+}
+
+
+
+
+#diagonal,#spatialX,#spatialY,#firstID,#spacing{
+width:50px;
+}
+
+#aspectW,#aspectH{
+width:30px;
+}
+
+
+.littleButton{
+
+  position:relative;
+  top:0;
+  left:0;
+  height: 26px;
+  width:16px;
+  background-color: red;
+
+}
